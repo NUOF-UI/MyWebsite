@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عالم نوف</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: center;
+            background-color: #ffe6f2;
+            color: #800040;
+        }
+        header {
+            background-color: #ff99cc;
+            color: white;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #ff66b2;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column; /* عرض القوائم بشكل عمودي */
+        }
+        nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 0;
+            border-bottom: 1px solid #ffe6f2;
+        }
+        nav a:hover {
+            background-color: #ffe6f2;
+            color: #800040;
+        }
+        main {
+            padding: 10px;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff0f5;
+            border: 1px solid #ff99cc;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #ff66b2;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* تصميم للجوال */
+        @media (max-width: 768px) {
+            header {
+                padding: 10px 0;
+            }
+            nav a {
+                padding: 10px 0;
+                font-size: 14px;
+            }
+            section {
+                padding: 10px;
+                margin: 10px 0;
+            }
+            footer {
+                font-size: 14px;
+                padding: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بك في عالم نوف</h1>
+        <p>هنا تجدين الإبداع والتميز!</p>
+    </header>
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#about">النبذة عنا</a>
+        <a href="#services">الخدمات</a>
+        <a href="#contact">التواصل معنا</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>الرئيسية</h2>
+            <p>مرحبًا بكِ في موقعي حيث يجتمع الإبداع والتميز!</p>
+        </section>
+        <section id="about">
+            <h2>النبذة عنا</h2>
+            <p>أنا نوف، مصممة ومبدعة في تطوير المواقع. أهلاً وسهلاً بكِ!</p>
+        </section>
+        <section id="services">
+            <h2>الخدمات</h2>
+            <p>أوفر خدمات تصميم مواقع بسيطة وسهلة الاستخدام تلائم الجميع.</p>
+        </section>
+        <section id="contact">
+            <h2>التواصل معنا</h2>
+            <p>للتواصل يمكنكِ إرسال رسالة على البريد الإلكتروني: example@example.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 عالم نوف - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
